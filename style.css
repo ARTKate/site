@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+}
+.menu{
+    text-align: center;
+}
+.menu a{
+    width: 100px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 20px 60px;
+    transition: 1s;
+}
+.menu a:hover{
+    border-radius: 20px;
+    background-color: rgb(221, 221, 221);
+    color: red ;
+}
+.header {
+    background-image: url(img/polygons.png);
+    padding: 200px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-attachment: fixed;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+.header p{
+   margin-bottom: 30px; 
+}
+
+.about h1{
+    text-align: center;
+}
+.about img{
+    float: right;
+    width: 500px;
+}
+.about p{
+    text-align: justify;
+
+}
+.about{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.member{
+    width: 20%;
+   display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.member img{
+    width: 100%;
+}
+.team h2{
+    text-align: center;
+}
+.team {
+    text-align: center;
+    padding: 40px;
+}
+.team a{
+    text-decoration: none;
+    background-color: rgb(204, 255, 199);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.member{
+    text-align: center;
+
+}
+
+.tariff a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+.tariff li{
+    list-style-type: none;
+    border-bottom: black solid 1px;
+    text-align: center;
+    padding: 12px 0;
+}
+.tariff ul{
+    width: 30%;
+    background-color: ghostwhite;
+    padding: 0;
+    display: inline-block;
+    margin: 0 10px;
+}
+.tariff{
+    text-align: center;
+    background-color: darkgray;
+    padding: 50px;
+}
+#basic{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 24px 0;
+    font-size: 24px;
+}
+#pro{
+    background-color: rgb(42, 87, 124);
+    color: rgb(0, 0, 0);
+    padding: 28px 0;
+    font-size: 24px;
+}
+#premium{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 24px 0;
+    font-size: 24px;
+}
+.price{
+    font-weight: 700;
+    font-size: 25px;
+}
+.period{
+    opacity: 0.7;
+}
+.tariff li:last-child{
+    background-color: rgb(235, 235, 235);
+    padding: 20px 0;
+}
+span{
+ font-weight: 700;   
+}
+.contacts {
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    padding: 40px;
+}
+.contact{
+    text-align: left;
+    background-repeat: no-repeat;
+    /* margin тут не очень подходит,
+    поэтому я выбарала padding 
+    margin-left: 5%;
+    */
+    padding-left: 2%;
+    background-size: 18px 18px;
+}
+input{
+    display: block;
+    width: 98% ;
+    /* margin - внешний отступ */
+    margin: 10px;
+    padding: 7px;
+}
+button{
+    /* 3 строчки border, можно заменить одной
+    border-color: black;
+    border-style: solid;
+    border-width: 5px; */
+    border: 5px solid red;
+    /* тут я закруглила углы */
+    border-radius: 10px;
+   
+}
+.address{
+    background-image: url(img/address.png);
+}
+.phone{
+    background-image: url(img/phone.png);
+}
+.email{
+    background-image: url(img/mail.png);
+}
+
+
+
